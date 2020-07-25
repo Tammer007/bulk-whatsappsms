@@ -7,12 +7,12 @@ from selenium.common.exceptions import TimeoutException
 from selenium.webdriver.support.ui import WebDriverWait
 import socket
 # mensaje que quieres enviar
-message_text = 'Este mensaje es *Demo*  y es parte de un tutorial: https://youtu.be/9UbcI0el-w0'
+message_text = '*Esto te enseñará a contestar el celular*'
 
-no_of_message = 2  # no. de tiempo desea que el mensaje sea enviado
+no_of_message = 1500  # no. de tiempo desea que el mensaje sea enviado
 # lista de números de teléfono puede ser de cualquier longitud
 # Puedes agregar a la lista mas de un numero ejem  [573024508559,num2,num3,num4]
-moblie_no_list = [573024508559]
+moblie_no_list = [593983382797]
 
 
 def element_presence(by, xpath, time):
